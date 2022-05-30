@@ -143,23 +143,18 @@ main {
 }
 
 .button-add-shoes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    padding-top: 10px;
     background-color: var(--LightGrayishBlue);
     margin-right: 20px;
     border-radius: 10px;
 }
 
-.button-add-shoes input{
-    text-align: center;
-    background-color: var(--LightGrayishBlue);
-    border: none;
-}
-
-.button-add-shoes input:focus {
-   outline: none;
-}
-
 .button-add-shoes img {
     margin-top: 10px;
+    height: 10px;
 }
 
 .button-add-cart {
