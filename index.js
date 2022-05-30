@@ -39,10 +39,13 @@ let remove = document.getElementById("minius");
 let add = document.getElementById("plus");
 let number = document.getElementById("number");
 
+
 remove.addEventListener("click", ()=>{
-    number.value  --;
+    if(number.value > 0){
+        number.value--
+    }
 });
 
 add.addEventListener("click", ()=>{
-    number.value  ++;
+    number.value ++;
 });
