@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- container  -->
+    
+    <div class="container">
+
+    <!-- navbar  -->
+
+        <nav>
+          <div class="container__div__navbar">
+            <div>
+                <h1>
+                    <a href="#">
+                        <img class="logo" src="./assets/img/logo.svg" alt="logo">
+                    </a>
+                </h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Collection</a> </li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+          </div>
+            <div class="navbar__cart__avatar">
+                <img class="img-cart" src="./assets/img/icon-cart.svg" alt="icon cart">
+                <img class="img-avatar" src="./assets/img/image-avatar.png" alt="icon avatar">
+            </div>
+        </nav>
+
+        <!-- main  -->
+
+        <main>
+            <!-- first section  -->
+            <section class="first-section">
+
+                <!-- container img  -->
+
+                <div class="container-img">
+                    <div>
+                        <img class="img-shoes1" src="./assets/img/image-product-1.jpg" alt="shoes 1" id="img1">
+                        <img class="img-shoes1 display-none" src="./assets/img/image-product-2.jpg" alt="shoes 1" id="img2">
+                        <img class="img-shoes1 display-none" src="./assets/img/image-product-3.jpg" alt="shoes 1" id="img3">
+                        <img class="img-shoes1 display-none" src="./assets/img/image-product-4.jpg" alt="shoes 1" id="img4">
+                        <img class="img-shoes1 display-none" src="./assets/img/image-product-5.jpg" alt="shoes 1" id="img5">
+                    </div>
+                    <div class="container-img-thumbnail">
+                        <img src="./assets/img/image-product-1-thumbnail.jpg" id="img-thumbnail1" alt="shoes 1">
+                        <img src="./assets/img/image-product-2-thumbnail.jpg" id="img-thumbnail2" alt="shoes 2">
+                        <img src="assets/img/image-product-3-thumbnail.jpg" id="img-thumbnail3" alt="shoes 3">
+                        <img src="./assets/img/image-product-4-thumbnail.jpg" id="img-thumbnail4" alt="shoes 4">
+                    </div>
+                </div>
+
+                <!-- container text   -->
+
+                <div class="container-text">
+                    <span class="name-company"><b>Sneaker Company</b></span>
+                    <h2 class="name-shoes">Fall Limited Edition Sneakers</h2>
+                    <p class="description-shoes">These low-profile sneaker are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+                    <div>
+                        <span class="discount-price"><b>$125.00</b></span>
+                        <span class="discount">50%</span>
+                        <span><p class="price">$250.00</p></span>
+                    </div>
+                    <div class="container-button">
+                        <div class="button-add-shoes">
+                            <img src="./assets/img/icon-minus.svg" alt="icon minus" id="minius">
+                            <input type="number" value="0" id="number">
+                            <img src="./assets/img/icon-plus.svg" alt="icon plus" id="plus">
+                        </div>
+                        <button class="button-add-cart"><img src="./assets/img/icon-cart.svg" alt="icon cart">Add to cart</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

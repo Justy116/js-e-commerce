@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/* GENERAL  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root {
+    --Orange: hsl(26, 100%, 55%);
+    --PaleOrange: hsl(25, 100%, 94%);
+    --VeryVarkBlue: hsl(220, 13%, 13%);
+    --DarkGrayishBlue: hsl(219, 9%, 45%);
+    --GrayishBlue: hsl(220, 14%, 75%);
+    --LightGrayishBlue: hsl(223, 64%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 0%);
+}
+
+/* container  */
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* navbar  */
+
+nav {
+    display: flex;
+    border-bottom: 1px solid var(--LightGrayishBlue);
+    padding-bottom: 20px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a{
+    color: var(--GrayishBlue);
+    padding-right: 10px;
+}
+
+.container__div__navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    vertical-align: baseline;
+    margin-right: 30px;
+}
+
+.img-avatar {
+    margin-left: 20px;
+    height: 40px;
+}
+
+/* main  */
+
+main {
+    margin: 0 auto 100px;
+    width: 70%;
+}
+
+/* first section  */
+
+.first-section {
+    margin-top: 150px;
+    display: flex;
+}
+
+/* container img  */
+
+.container-img {
+    margin-right: 100px;
+}
+
+.container-img img {
+    border-radius: 15px;
+}
+
+.img-shoes1 {
+    height: 400px;
+}
+
+.container-img-thumbnail img {
+    margin-top: 25px;
+    height: 90px;
+}
+
+/* container text  */
+
+.name-company {
+    color: var(--Orange);
+}
+
+.name-shoes {
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.description-shoes {
+    color: var(--GrayishBlue);
+    margin-bottom: 20px;
+}
+
+.discount-price {
+    font-size: 26px;
+}
+
+.discount {
+    color: var(--Orange);
+    background-color: var(--PaleOrange);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.price {
+    margin-top: 5px;
+    text-decoration: line-through;
+    color: var(--GrayishBlue);
+}
+
+/* button container */
+
+.container-button {
+    margin-top: 20px;
+    display: flex;
+}
+
+.button-add-shoes {
+    margin-right: 20px;
+}
+
+.button-add-cart {
+    border: none;
+    color: var(--White);
+    background-color: var(--Orange);
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.button-add-cart img {
+    vertical-align: middle;
+}
+
+.display-none {
+    display: none;
+}
