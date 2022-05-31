@@ -154,6 +154,13 @@ main {
 
 .button-add-shoes img {
     margin-top: 10px;
+}
+
+#minius {
+    height: 5px;
+}
+
+#plus {
     height: 10px;
 }
 
