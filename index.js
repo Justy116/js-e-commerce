@@ -1,8 +1,8 @@
 
 // add img
-let img1 = document.querySelector(".img-shoes1");
+let img1 = document.querySelector(".img-shoes");
 
-const img = Array.from(document.querySelectorAll(".img-thumbnail"));
+const img = document.querySelectorAll(".img-thumbnail");
 img.forEach((e)=>{
     e.addEventListener("click", ()=>{
         img1.src = e.src.replace("-thumbnail", "");
